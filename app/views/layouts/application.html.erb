@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geo</title>
+ 
+   <%= csrf_meta_tags %>
+
+   <%= stylesheet_link_tag 'application', media: 'all' %>
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+ </head>
+
+<header id="header">
+  <div class="container">
+    <nav class="navbar navbar-collapsed-sm navbar-default" id="nav" role="navigation">
+      <div class="navbar-header">
+ 
+        <!-- navigation toggler on small screens -->
+        <button class="navbar-toggle" data-target=".navbar-header-collapse" data-toggle="collapse" type="button">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+ 
+        <a class="navbar-brand" href="http://azeristudent.az/partners/">
+ 
+          <!-- place for your logo -->
+          <img alt="" width="" height="" src="">
+ 
+        </a>
+      </div>
+ 
+      <!-- navigation -->
+      <div class="collapse navbar-collapse navbar-header-collapse">
+        <ul class="nav navbar-nav navbar-right">
+ 
+          <!-- single navigation item (docs below) -->
+
+	  <li class="dropdown">
+	    <a class="dropdown-toggle" data-delay="50" data-hover="dropdown" data-toggle="dropdown" href="/">
+	      <span>
+	        Home
+              </span>
+            </a>
+	  </li>
+           
+          <!-- single navigation item with dropdown (docs below) -->
+
+	  <li class="dropdown">
+  	    <a class="dropdown-toggle" data-delay="50" data-hover="dropdown" data-toggle="dropdown" href="#">
+    	      <span>
+                About Us
+      	      </span>
+            </a>
+ 
+	    <!-- dropdown -->
+            <ul class="dropdown-menu" role="menu">
+ 
+              <!-- dropdown item -->
+              <li>
+                <%= link_to 'Who we are?', 'http://azeristudent.az/about_en/' %>
+              </li>
+            </ul>
+ 
+          </li>
+          
+
+          <!-- single navigation item with multilevel dropdown (docs below) -->
+ 
+        </ul>
+ 
+      </div>
+ 
+    </nav>
+  </div>
+</header>
+
+<body>
+  <%= yield %>
+</body>
+
+   <%= javascript_include_tag 'application', media: 'all' %>
+</html>
