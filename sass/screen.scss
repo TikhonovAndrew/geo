@@ -1,5 +1,8 @@
 @import 'jednotka';
 
-.home {
-        background-image: url("/home/rails/geo/app/assets/images/home1.jpg");
-      }
+.home
+{
+    background-image: url('/home/rails/geo/app/assets/images/home1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

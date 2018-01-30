@@ -8325,7 +8325,7 @@ body {
 
 /* line 14, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
 .nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading {
-  background: url('../app/assets/images/jednotka/plugins/nivo_slider/loading.gif?1514917745') no-repeat 50% 50%;
+  background: url('../app/assets/images/jednotka/plugins/nivo_slider/loading.gif?1516963658') no-repeat 50% 50%;
 }
 
 /* line 16, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
@@ -8347,20 +8347,20 @@ body {
 
 /* line 29, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
 .nivo-lightbox-theme-default .nivo-lightbox-prev {
-  background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/prev.png?1514917746');
+  background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/prev.png?1516963658');
   border-radius: 0 3px 3px 0;
 }
 
 /* line 33, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
 .nivo-lightbox-theme-default .nivo-lightbox-next {
-  background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/next.png?1514917746');
+  background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/next.png?1516963658');
   border-radius: 3px 0 0 3px;
 }
 
 /* line 38, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
 .nivo-lightbox-theme-default .nivo-lightbox-close {
   display: block;
-  background: url('../app/assets/images/jednotka/plugins/nivo_slider/close.png?1514917746') no-repeat 0 0;
+  background: url('../app/assets/images/jednotka/plugins/nivo_slider/close.png?1516963658') no-repeat 0 0;
   width: 16px;
   height: 16px;
   text-indent: -9999px;
@@ -8410,25 +8410,25 @@ body {
 @media (-webkit-min-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (min--moz-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   /* line 81, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
   .nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading {
-    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/loading@2x.gif?1514917745');
+    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/loading@2x.gif?1516963658');
     background-size: 32px 32px;
   }
 
   /* line 85, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
   .nivo-lightbox-theme-default .nivo-lightbox-prev {
-    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/prev@2x.png?1514917745');
+    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/prev@2x.png?1516963658');
     background-size: 48px 48px;
   }
 
   /* line 89, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
   .nivo-lightbox-theme-default .nivo-lightbox-next {
-    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/next@2x.png?1514917745');
+    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/next@2x.png?1516963658');
     background-size: 48px 48px;
   }
 
   /* line 93, ../sass/plugins/nivo_lightbox/_nivo-lightbox.scss */
   .nivo-lightbox-theme-default .nivo-lightbox-close {
-    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/close@2x.png?1514917745');
+    background-image: url('../app/assets/images/jednotka/plugins/nivo_slider/close@2x.png?1516963658');
     background-size: 16px 16px;
   }
 }
@@ -8762,12 +8762,12 @@ body {
 /* line 13, ../sass/theme/structure/_content.scss */
 body.boxed {
   background-color: #e8e8e8;
-  background-image: url('../app/assets/images/jednotka/bg_patterns/bg_boxed.png?1514917746');
+  background-image: url('../app/assets/images/jednotka/bg_patterns/bg_boxed.png?1516963658');
 }
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   /* line 13, ../sass/theme/structure/_content.scss */
   body.boxed {
-    background-image: url('../app/assets/images/jednotka/bg_patterns/bg_boxed.png?1514917746');
+    background-image: url('../app/assets/images/jednotka/bg_patterns/bg_boxed.png?1516963658');
     background-size: 200px 200px;
   }
 }
@@ -8804,12 +8804,12 @@ body.boxed {
 #wrapper {
   background-repeat: no-repeat;
   background-position: center 0;
-  background-image: url('../app/assets/images/jednotka/bg_wrapper.jpg?1514917747');
+  background-image: url('../app/assets/images/jednotka/bg_wrapper.jpg?1516963658');
 }
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   /* line 41, ../sass/theme/structure/_content.scss */
   #wrapper {
-    background-image: url('../app/assets/images/jednotka/bg_wrapper@2x.jpg?1514917744');
+    background-image: url('../app/assets/images/jednotka/bg_wrapper@2x.jpg?1516963658');
     background-size: 1920px 535px;
   }
 }
@@ -14949,7 +14949,7 @@ html.no-touch body.error-page #wrapper .container {
 
 /* line 23, ../sass/theme/pages/_error.scss */
 body.error-page {
-  background: url('../app/assets/images/jednotka/bg_fullsize.jpg?1514917744') no-repeat center center fixed;
+  background: url('../app/assets/images/jednotka/bg_fullsize.jpg?1516963658') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15034,7 +15034,7 @@ html.no-touch body.countdown-page #wrapper .container {
 
 /* line 23, ../sass/theme/pages/_countdown.scss */
 body.countdown-page {
-  background: url('../app/assets/images/jednotka/bg_fullsize.jpg?1514917744') no-repeat center center fixed;
+  background: url('../app/assets/images/jednotka/bg_fullsize.jpg?1516963658') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15186,4 +15186,6 @@ body.countdown-page .countdown .countdown-item .countdown-label {
 /* line 3, ../sass/screen.scss */
 .home {
   background-image: url("/home/rails/geo/app/assets/images/home1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

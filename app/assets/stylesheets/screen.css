@@ -8816,7 +8816,7 @@ body.boxed {
 
 /* line 48, ../sass/theme/structure/_content.scss */
 #main-content {
-  padding: 70px 0 80px 0;
+  padding: 30px 0 80px 0;
   background-color: #fff;
 }
 
@@ -9817,7 +9817,7 @@ pre {
   border-bottom: none;
   padding-bottom: 0;
   padding-top: 16px;
-  margin: 90px 0 50px 0;
+  margin: 10px 0 50px 0;
 }
 /* line 178, ../sass/theme/structure/_typography.scss */
 .page-header.page-header-with-icon > [class^="fa-"], .page-header.page-header-with-icon > [class*=" fa-"] {
@@ -15186,4 +15186,39 @@ body.countdown-page .countdown .countdown-item .countdown-label {
 /* line 3, ../sass/screen.scss */
 .home {
   background-image: #{image_url('home1.jpg')};
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 500px
+}
+
+.parallax-header {
+  height: 50px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: transparent;
+  background-color: #f2f2f2
+}
+
+.image {
+  background-image: #{image_url('sub-header.jpg')};
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-reapet: no-reapet;
+  background-size: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+
+.parallax-cover {
+  background-image: #{image_url('home1.jpg')}
 }

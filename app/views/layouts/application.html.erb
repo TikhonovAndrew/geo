@@ -1,84 +1,119 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Geo</title>
+<html lang="en">
+<head>
+  <title>Georgian Academic Abroad</title>
  
-   <%= csrf_meta_tags %>
+  <%= csrf_meta_tags %>
 
-   <%= stylesheet_link_tag 'application', media: 'all' %>
-   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <%= javascript_include_tag 'application', media: 'all' %>
+</head>
 
- </head>
 
-<header id="header">
-  <div class="container">
-    <nav class="navbar navbar-collapsed-sm navbar-default" id="nav" role="navigation">
-      <div class="navbar-header">
- 
-        <!-- navigation toggler on small screens -->
-        <button class="navbar-toggle" data-target=".navbar-header-collapse" data-toggle="collapse" type="button">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
- 
-        <a class="navbar-brand" href="http://azeristudent.az/partners/">
- 
-          <!-- place for your logo -->
-          <img alt="" width="" height="" src="">
- 
-        </a>
-      </div>
- 
-      <!-- navigation -->
-      <div class="collapse navbar-collapse navbar-header-collapse">
-        <ul class="nav navbar-nav navbar-right">
- 
-          <!-- single navigation item (docs below) -->
+<!-- Navigation -->
+<div class="navbar-fixed" style="z-index: 998;">
+<nav class='teal lighten-2'>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><%= link_to 'Home', root_path %></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown">About<i class="material-icons right">arrow_drop_down</i></a></li>
+        <ul id="dropdown" class="dropdown-content">
+          <li><%= link_to 'Mission', about_path %></li>
+          <li><%= link_to 'Team', team_members_path %></li>
+          <li><%= link_to 'Contacts', contact_path %></li>
+        </ul>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Abroad<i class="material-icons right">arrow_drop_down</i></a></li>
+        <ul id="dropdown1" class="dropdown-content">
+          <li><%= link_to 'Countries', countries_path %></li>
+          <li><%= link_to 'Schools', schools_path %></li>
+        </ul>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Info<i class="material-icons right">arrow_drop_down</i></a></li>
+        <ul id="dropdown2" class="dropdown-content">
+          <li><%= link_to 'News', news_items_path %></li>
+          <li><%= link_to 'Events', events_path %></li>
+          <li><%= link_to 'Fairs', fairs_path %></li>
+        </ul>
+    </ul>
 
-	  <li class="dropdown">
-	    <a class="dropdown-toggle" data-delay="50" data-hover="dropdown" data-toggle="dropdown" href="/">
-	      <span>
-	        Home
-              </span>
-            </a>
-	  </li>
-           
-          <!-- single navigation item with dropdown (docs below) -->
-
-	  <li class="dropdown">
-  	    <a class="dropdown-toggle" data-delay="50" data-hover="dropdown" data-toggle="dropdown" href="#">
-    	      <span>
-                About Us
-      	      </span>
-            </a>
- 
-	    <!-- dropdown -->
-            <ul class="dropdown-menu" role="menu">
- 
-              <!-- dropdown item -->
+    <!-- SideNav -->
+    <ul class="right">
+      <li><a href="" data-activates="sidenav1" class="button-collapse"><i class="material-icons right">menu</i></a></li>
+        <ul class="side-nav" id="sidenav1">
+          <li><a href="/"><i class="material-icons">home</i></a></li>
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion"> 
               <li>
-                <%= link_to 'Who we are?', 'http://azeristudent.az/about_en/' %>
+                <a class="collapsible-header">About<i class="material-icons right">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><%= link_to 'Mission', about_path %></li>
+                      <li><%= link_to 'Team', team_members_path %></li>
+                      <li><%= link_to 'Contacts', contact_path %></li>
+                    </ul> 
+                  </div>
               </li>
             </ul>
- 
           </li>
-          
-
-          <!-- single navigation item with multilevel dropdown (docs below) -->
- 
-        </ul>
- 
-      </div>
- 
-    </nav>
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion"> 
+              <li>
+                <a class="collapsible-header">Abroad<i class="material-icons right">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><%= link_to 'Countries', countries_path %></li>
+                      <li><%= link_to 'Schools', schools_path %></li>
+                    </ul> 
+                  </div>
+              </li>
+            </ul>
+          </li>
+           <li class="no-padding">
+            <ul class="collapsible collapsible-accordion"> 
+              <li>
+                <a class="collapsible-header">Info<i class="material-icons right">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><%= link_to 'News', news_items_path %></li>
+                      <li><%= link_to 'Events', events_path %></li>
+                      <li><%= link_to 'Fairs', fairs_path %></li>
+                    </ul> 
+                  </div>
+              </li>
+            </ul>
+          </li>
   </div>
-</header>
+</nav>
+</div>
 
 <body>
-  <%= yield %>
+    <%= yield %>
 </body>
 
-   <%= javascript_include_tag 'application', media: 'all' %>
+<footer class="page-footer teal darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contacts</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Follow us</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
 </html>
