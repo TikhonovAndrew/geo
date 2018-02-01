@@ -34,5 +34,7 @@ Rails.application.routes.draw do
   get '/contact_ge' => 'pages#contact_ge'
   get '/event-registrations' => 'pages#event_registrations'
   get '/fair-registrations' => 'pages#fair_registrations'
-  
+  get '/users/sign_up' => 'registrations#new'
+  post '/users/register' => 'regisrations#create'
+
 end
