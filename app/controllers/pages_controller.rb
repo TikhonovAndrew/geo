@@ -11,8 +11,8 @@ class PagesController < ApplicationController
   def about
   end
 
-  def about_en
-        render :layout => 'application_en'
+  def about_ge
+        render :layout => 'application_ge'
   end
 
   def contact

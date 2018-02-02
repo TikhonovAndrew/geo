@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   
   root :to => 'pages#index'
+
+  resources :devise
   
   resources :events
   get '/events/:id/register', to: 'event_confirmations#new'
@@ -34,7 +36,6 @@ Rails.application.routes.draw do
   get '/contact_ge' => 'pages#contact_ge'
   get '/event-registrations' => 'pages#event_registrations'
   get '/fair-registrations' => 'pages#fair_registrations'
-  get '/users/sign_up' => 'registrations#new'
-  post '/users/register' => 'regisrations#create'
-
+  get '/styles' => 'pages#temporary'
+  get '/users/sign_up' => 'devise/registrations#new'
 end
